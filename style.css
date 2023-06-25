@@ -1,0 +1,163 @@
+body {
+  width: 100%;
+  background-color: black;
+  background-size: 1040px;
+  margin-top: 50px;
+}
+/* En esta parte indicamos informacion de la barra de navegacion */
+.header-info-container {
+  font-size: 20px;
+  padding: 20px 60px 20px 60px;
+}
+.header-info {
+  background-color: rgb(122, 21, 21);
+  border-radius: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  opacity: calc(50%);
+}
+/* En esta parte hacemos referencia a la seccion Inicio*/
+.logo {
+  width: 130px;
+  margin-left: 5px;
+  margin-right: 80px;
+  border-radius: 7px;
+  margin-top: 6px;
+}
+
+.logo-empresa {
+  width: 100%;
+}
+.fachada-empresa {
+  width: 100%;
+}
+/* En esta parte hacemos referencia a la seccion historia */
+p {
+  margin: 20px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+/* En esta clase hacemos referencia a la barra de separacion de secciones  */
+.hrTitulos {
+  border: 2px solid red;
+}
+/* En esta parte indicamos el carrousel de los clientes de la empresa*/
+.carousel-item {
+  height: 70vw;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.img-carousel-1 {
+  background-image: url(img/cliente1.jpeg);
+}
+.img-carousel-2 {
+  background-image: url(img/cliente2.jpeg);
+}
+.img-carousel-3 {
+  background-image: url(img/cliente3.jpeg);
+}
+.img-carousel-4 {
+  background-image: url(img/cliente4.jfif);
+}
+.img-carousel-5 {
+  background-image: url(img/cliente5.jpeg);
+}
+.img-carousel-6 {
+  background-image: url(img/cliente6.jpeg);
+}
+.img-carousel-7 {
+  background-image: url(img/cliente7.jpeg);
+}
+.img-carousel-8 {
+  background-image: url(img/cliente8.jpeg);
+}
+.img-carousel-9 {
+  background-image: url(img/cliente9.jfif);
+}
+.img-carousel-10 {
+  background-image: url(img/cliente10.webp);
+}
+/* En esta parte indicamos partes de las seccion Nosotros */
+.card {
+  margin: 0px 20px 0px 20px;
+  border-radius: 15px;
+  background-color: white;
+  border-width: 2px;
+  border-color: red;
+}
+/* En esta clase hacemos referencia al los maregenes que le vamos a dar para centrar la pagina */
+.paddingsection {
+  padding: 5em 4em 2em 4em;
+}
+/* En esta parte hacemos refrencia a la seccion Integrantes */
+.integrantes {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* En esta parte vamos a darle formato a los iconos de redes sociales */
+.social-icons {
+  background-color: aqua;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: -55px;
+  padding-left: 130px;
+  letter-spacing: 5px;
+}
+.social-icons li a {
+  color: rgb(235, 20, 20);
+  margin: 25px;
+  padding: 6px 16px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.social-icons li a:hover {
+  background-color: black;
+}
+/* En esta parte indicamos la seccion contacto */
+.parrafosContacto {
+  font-size: 25px;
+}
+.textoResaltado {
+  display: flex;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* En esta parte hacemos refrencia a los iconos  del footer y textos*/
+.globo-icons {
+  background-color: rgb(52, 53, 49);
+  color: rgb(204, 2, 2);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding-top: 5px;
+}
+.alto-footer {
+  height: 100%;
+  margin-bottom: 150px;
+}
+.text-red {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  color: red;
+}
+.colorfooter {
+  color: blueviolet;
+}
